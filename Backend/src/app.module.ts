@@ -37,6 +37,7 @@ import { ApiKeysModule } from './api-keys/api-keys.module';
 import { AppCacheModule } from './cache/cache.module';
 import { NotificationModule } from './notifications/notification.module';
 import { TradeEngineModule } from './trade-engine/trade-engine.module';
+import { TradeReconciliationModule } from './trade-reconciliation/trade-reconciliation.module';
 import { MarketAuditModule } from './market-audit/market-audit.module';
 import { VerificationModule } from './verification/verification.module';
 
@@ -97,6 +98,7 @@ import { VerificationModule } from './verification/verification.module';
     AppCacheModule,
     NotificationModule,
     TradeEngineModule,
+    TradeReconciliationModule,
     MarketAuditModule,
     VerificationModule,
   ],
